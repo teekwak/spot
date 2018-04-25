@@ -8,3 +8,8 @@ class Something:
 
     def do_something_else(self):
         self.do_something()
+
+
+if __name__ == '__main__':
+    x = (1, 2)
+    y = Something()
