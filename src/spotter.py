@@ -14,8 +14,8 @@
 # not called
 # or running hunter multiple times will catch all of them
 
-from tokens.ClassToken import ClassToken
-from tokens.MethodDeclarationToken import MethodDeclarationToken
+from tokens.class_token import ClassToken
+from tokens.method_declaration_token import MethodDeclarationToken
 
 
 class Spotter:
@@ -118,4 +118,4 @@ class Spotter:
         print(f'Undeclared Methods: {self.undeclared_method_names}')
 
 if __name__ == '__main__':
-    Spotter().spot('../test/test.py')
+    Spotter().spot('../tests/test.py')
