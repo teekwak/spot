@@ -12,4 +12,4 @@ class ClassToken:
             name += char
             char = next(reader)
 
-        return name
+        return name.strip()

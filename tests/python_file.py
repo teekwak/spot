@@ -1,6 +1,6 @@
-class                                         Something:
+class                                         Something                        :
 
-    def __init__(self):
+    def           __init__                (        self            ):
         pass
 
     def do_something(self):
@@ -13,3 +13,4 @@ class                                         Something:
 if __name__ == '__main__':
     x = (1, 2)
     y = Something()
+    print('I finished running')
